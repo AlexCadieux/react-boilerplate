@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "strictFunctionTypes": false,
+    "target": "esnext",
+    "outDir": "./dist/",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "lib": [
+      "ES2015",
+      "DOM.Iterable",
+      "ES2016.Array.Include",
+      "ES2017.Object",
+      "DOM"
+    ],
+    "module": "esnext",
+    "removeComments": false,
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true
+  }
+}
